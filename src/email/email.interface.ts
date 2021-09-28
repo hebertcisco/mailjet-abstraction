@@ -16,7 +16,7 @@ interface PostResponseData {
 }
 export interface Generics {
   Email: string;
-  Name:  string;
+  Name: string;
 }
 
 export interface PostResponse {
@@ -33,33 +33,35 @@ export interface InlinedAttachment extends Attachment {
 }
 export interface SendParamsMessage {
   From: {
-    Email: string,
-    Name?: string | undefined,
-  },
-  Sender?: {
-    Email: string,
-    Name?: string | undefined,
-  } | undefined,
-  To: Generics[],
-  Cc?: Generics[] | undefined,
-  Bcc?: Generics[] | undefined,
-  ReplyTo?: Generics | undefined,
-  Variables?: any | undefined,
-  TemplateID?: number | undefined,
-  TemplateLanguage?: boolean | undefined,
-  Subject?: string | undefined,
-  TextPart?: string | undefined,
-  HTMLPart?: string | undefined,
-  MonitoringCategory?: string | undefined,
-  URLTags?: string | undefined,
-  CustomCampaign?: string | undefined,
-  DeduplicateCampaign?: boolean | undefined,
-  EventPayload?: string | undefined,
-  CustomID?: string | undefined,
-  Headers?: any | undefined,
-  Attachments?: Attachment[] | undefined,
-  InlinedAttachments?: InlinedAttachment[] | undefined
+    Email: string;
+    Name?: string | undefined;
+  };
+  Sender?:
+    | {
+        Email: string;
+        Name?: string | undefined;
+      }
+    | undefined;
+  To: Generics[];
+  Cc?: Generics[] | undefined;
+  Bcc?: Generics[] | undefined;
+  ReplyTo?: Generics | undefined;
+  Variables?: any | undefined;
+  TemplateID?: number | undefined;
+  TemplateLanguage?: boolean | undefined;
+  Subject?: string | undefined;
+  TextPart?: string | undefined;
+  HTMLPart?: string | undefined;
+  MonitoringCategory?: string | undefined;
+  URLTags?: string | undefined;
+  CustomCampaign?: string | undefined;
+  DeduplicateCampaign?: boolean | undefined;
+  EventPayload?: string | undefined;
+  CustomID?: string | undefined;
+  Headers?: any | undefined;
+  Attachments?: Attachment[] | undefined;
+  InlinedAttachments?: InlinedAttachment[] | undefined;
 }
-export interface Messages{
-  Messages: SendParamsMessage[]
+export interface Messages {
+  Messages: SendParamsMessage[];
 }
