@@ -32,6 +32,24 @@
 
 ## Installation
 
+```bash
+npm i mailjet-abstraction
+# Or
+yarn add mailjet-abstraction
+```
+
+## Usage
+
+```ts
+import { EmailService  } from 'mailjet-abstraction';
+
+try{
+  await new EmailService('apiKey', 'apiSecret', { version: 'v3.1' })
+    .request(message);
+}catch (e){
+  console.error(e)
+}
+```
 > Clone this repository: `git clone https://github.com/hebertcisco/mailjet-abstraction`
 
 ### Open the directory and run the script line:
