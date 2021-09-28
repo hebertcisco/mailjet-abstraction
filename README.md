@@ -45,7 +45,27 @@ import { EmailService  } from 'mailjet-abstraction';
 
 try{
   await new EmailService('apiKey', 'apiSecret', { version: 'v3.1' })
-    .request(message);
+    .request({
+  Messages: [
+    {
+      From: {
+        Email: 'yorEmail@domain.com',
+        Name: 'yorName',
+      },
+      To: [
+        {
+          Email: 'anEmail@domain.com',
+          Name: 'Doe',
+        },
+      ],
+      Subject: 'Greetings from Mailjet.',
+      TextPart: 'My first Mailjet email',
+      HTMLPart: `<body>
+             <h3>Test</h3>
+            </body>`,
+    },
+  ],
+});
 }catch (e){
   console.error(e)
 }
