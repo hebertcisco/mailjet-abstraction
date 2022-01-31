@@ -35,8 +35,8 @@
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node-mailjet": "3.3.8",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
+    "@typescript-eslint/eslint-plugin": "5.10.2",
+    "@typescript-eslint/parser": "5.10.2",
     "dotenv": "14.3.2",
     "eslint": "^7.11.0",
     "eslint-plugin-jest": "25.7.0",
