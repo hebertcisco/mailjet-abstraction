@@ -27,8 +27,15 @@
 
 <p align="center"><strong>Build Together. Send Smarter.</strong>✨</p>
 
-
 # Getting started
+
+> Build Together. Send Smarter.
+
+[![codecov](https://codecov.io/gh/hebertcisco/mailjet-abstraction/branch/main/graph/badge.svg?token=4QRSAT0WDC)](https://codecov.io/gh/hebertcisco/mailjet-abstraction)
+
+[![Node.js build and publish package](https://github.com/hebertcisco/mailjet-abstraction/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/hebertcisco/mailjet-abstraction/actions/workflows/npm-publish.yml)
+
+[![Running Code Coverage](https://github.com/hebertcisco/mailjet-abstraction/actions/workflows/coverage.yml/badge.svg)](https://github.com/hebertcisco/mailjet-abstraction/actions/workflows/coverage.yml)
 
 ## Installation
 
