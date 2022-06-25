@@ -1,6 +1,6 @@
-import mailjet = require('node-mailjet');
-import { Messages } from './email.interface';
-import { Email } from 'node-mailjet';
+import mailjet from 'node-mailjet';
+import type { Messages } from './email.interface';
+import type { Email } from 'node-mailjet';
 
 export class EmailService {
   constructor(private apiKey: string, private apiSecret: string, private options?: mailjet.ConnectOptions) {}

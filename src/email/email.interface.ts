@@ -65,3 +65,10 @@ export interface SendParamsMessage {
 export interface Messages {
   Messages: SendParamsMessage[];
 }
+export interface MailReponseInterface {
+  body: {
+    Messages: {
+      Status: string;
+    }[];
+  };
+}
