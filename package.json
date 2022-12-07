@@ -17,7 +17,7 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "dotenv": "^14.3.2",
+    "dotenv": "^16.0.3",
     "node-mailjet": "^3.0.5"
   },
   "devDependencies": {
