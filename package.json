@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "dotenv": "^14.3.2",
-    "node-mailjet": "^3.0.5"
+    "node-mailjet": "^5.1.1"
   },
   "devDependencies": {
     "@types/chance": "^1.1.3",
