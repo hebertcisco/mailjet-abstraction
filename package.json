@@ -1,6 +1,6 @@
 {
   "name": "mailjet-abstraction",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Build Together. Send Smarter.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
